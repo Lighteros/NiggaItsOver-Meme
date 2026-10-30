@@ -5,7 +5,7 @@
   // ---- Launch config. Leave null until real values exist. Never guess. ----
   const CONFIG = {
     ca: null,        // Solana mint address. null => "TBA", Buy/Chart stay "Soon"
-    xUrl: null,      // e.g. 'https://x.com/<handle>' once the account exists. null => "X Soon"
+    xUrl: 'https://x.com/NiggaItsOver_RH',
     // Ready-made link patterns, used only once `ca` is set:
     buyUrl: (ca) => `https://swap.pump.fun/?input=So11111111111111111111111111111111111111112&output=${ca}`,
     chartUrl: (ca) => `https://dexscreener.com/solana/${ca}`,

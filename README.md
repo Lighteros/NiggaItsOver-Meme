@@ -2,7 +2,7 @@
 
 Static parody meme-coin site (HTML + CSS + vanilla JS, no build step) deployed on Vercel.
 
-**Status at launch:** CA = **TBA** · Buy = **Soon** · Chart = **Soon** · X = **Soon** · Telegram = **none** (no Telegram UI anywhere) · Meme vault = **0** (Soon).
+**Status at launch:** CA = **TBA** · Buy = **Soon** · Chart = **Soon** · X = **https://x.com/NiggaItsOver_RH** · Telegram = **none** (no Telegram UI anywhere) · Meme vault = **0** (Soon).
 
 ## Concept & PLAYBOOK archetypes
 Reference: `/workspace/site_study/PLAYBOOK.md` §3.
@@ -13,8 +13,8 @@ Reference: `/workspace/site_study/PLAYBOOK.md` §3.
 - **Type:** Anton (Impact stand-in, white fill with a heavy black `-webkit-text-stroke` + `paint-order`) and IBM Plex Mono. Both are self-hosted woff2.
 
 ## Sections
-1. LIVE chyron + sticky nav (X Soon, Buy Soon)
-2. Hero: Impact `NIGGA` / B&W grin / `IT'S OVER`, crash-line SVG, lower-third `$NIO` + **CA TBA**, Buy / Chart / X all **Soon**
+1. LIVE chyron + sticky nav (X live, Buy Soon)
+2. Hero: Impact `NIGGA` / B&W grin / `IT'S OVER`, crash-line SVG, lower-third `$NIO` + **CA TBA**, Buy / Chart **Soon**, X live
 3. Lore (`DESCRIPTION.md` long description) + stats
 4. Timeline: all **8** posts from `NARRATIVE_TWEETS.md` as official X embeds (`blockquote.twitter-tweet`, `data-theme="dark"`, `widgets.js` lazy-loaded), each paired with **site-owned media** (`img/tweet-media/*-web.mp4` + `.webp` poster; #8 is a still)
 5. Receipts: 10 posts from `NEWS_TWEETS.md`, quoted verbatim (trimmed with "…") and linked to the original posts, labeled as third-party reporting
