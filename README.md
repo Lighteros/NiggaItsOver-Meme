@@ -2,7 +2,7 @@
 
 Static parody meme-coin site (HTML + CSS + vanilla JS, no build step) deployed on Vercel.
 
-**Status at launch:** CA = **TBA** · Buy = **Soon** · Chart = **Soon** · X = **https://x.com/NiggaItsOver_RH** · Telegram = **none** (no Telegram UI anywhere) · Meme vault = **0** (Soon).
+**Status at launch:** CA = **0x189b14fd8068003041625642f9ffc3d7adab0938** (Robinhood Chain) · Buy = Uniswap · Chart = DexScreener · X = **https://x.com/NiggaItsOver_RH** · Telegram = **none** (no Telegram UI anywhere) · Meme vault = **0** (Soon).
 
 ## Concept & PLAYBOOK archetypes
 Reference: `/workspace/site_study/PLAYBOOK.md` §3.
@@ -14,7 +14,7 @@ Reference: `/workspace/site_study/PLAYBOOK.md` §3.
 
 ## Sections
 1. LIVE chyron + sticky nav (X live, Buy Soon)
-2. Hero: Impact `NIGGA` / B&W grin / `IT'S OVER`, crash-line SVG, lower-third `$NIO` + **CA TBA**, Buy / Chart **Soon**, X live
+2. Hero: Impact `NIGGA` / B&W grin / `IT'S OVER`, crash-line SVG, lower-third `$NIO` + CA (copyable), Buy / Chart live, X live
 3. Lore (`DESCRIPTION.md` long description) + stats
 4. Timeline: all **8** posts from `NARRATIVE_TWEETS.md` as official X embeds (`blockquote.twitter-tweet`, `data-theme="dark"`, `widgets.js` lazy-loaded), each paired with **site-owned media** (`img/tweet-media/*-web.mp4` + `.webp` poster; #8 is a still)
 5. Receipts: 10 posts from `NEWS_TWEETS.md`, quoted verbatim (trimmed with "…") and linked to the original posts, labeled as third-party reporting
@@ -24,10 +24,10 @@ Reference: `/workspace/site_study/PLAYBOOK.md` §3.
 
 ## Going live later (edit `js/main.js` → `CONFIG`)
 ```js
-ca: null,    // set the real Solana mint → CA pill + Copy, Buy (PumpSwap) and Chart (DexScreener) switch on
+ca: null,    // set the CA → CA pill + Copy, Buy (Uniswap RH) and Chart (DexScreener) switch on
 xUrl: null,  // set the real https://x.com/<handle> → X button switches on
 ```
-Buy pattern: `https://swap.pump.fun/?input=So111…112&output=<CA>` · Chart: `https://dexscreener.com/solana/<CA>`.
+Buy pattern: `https://app.uniswap.org/swap?outputCurrency=<CA>&chain=robinhood` · Chart: `https://dexscreener.com/robinhood/0x7b5fce21e3c6bdd01fdb5b4be86ca579b10981546f4c9e7b127f86aab03e5103` · Explorer: `https://robinhoodchain.blockscout.com/token/<CA>`.
 Never guess these values. Also update the CA text in `og.jpg` and the meta descriptions when the CA is live.
 
 ## Media

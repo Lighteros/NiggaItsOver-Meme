@@ -4,11 +4,11 @@
 
   // ---- Launch config. Leave null until real values exist. Never guess. ----
   const CONFIG = {
-    ca: null,        // Solana mint address. null => "TBA", Buy/Chart stay "Soon"
+    ca: '0x189b14fd8068003041625642f9ffc3d7adab0938', // Robinhood Chain (EVM)
     xUrl: 'https://x.com/NiggaItsOver_RH',
     // Ready-made link patterns, used only once `ca` is set:
-    buyUrl: (ca) => `https://swap.pump.fun/?input=So11111111111111111111111111111111111111112&output=${ca}`,
-    chartUrl: (ca) => `https://dexscreener.com/solana/${ca}`,
+    buyUrl: (ca) => `https://app.uniswap.org/swap?outputCurrency=${ca}&chain=robinhood`,
+    chartUrl: () => 'https://dexscreener.com/robinhood/0x7b5fce21e3c6bdd01fdb5b4be86ca579b10981546f4c9e7b127f86aab03e5103',
   };
 
   const M = '/img/tweet-media/';
